@@ -7,5 +7,5 @@
 	<a href="https://github.com/Isopach/isopach.github.io"><img src="https://img.shields.io/github/last-commit/Isopach/isopach.github.io?style=plastic" alt="My CTF Writeups"></a>
 </p>
 
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=isopach&count_private=true&show_icons=true&theme=tokyonight&hide_title=true&hide_border=true&hide_rank=true" />
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isopach&layout=compact&theme=tokyonight&&langs_count=10&hide=css,scss,tex,matlab&hide_border=true" />
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=isopach&count_private=true&show_icons=true&theme=tokyonight&hide_title=true&hide_border=true&hide_rank=true" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isopach&layout=compact&theme=tokyonight&&langs_count=10&hide=css,scss,tex,matlab&hide_border=true" />

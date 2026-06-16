@@ -7,7 +7,3 @@
 </p>
 
 <a><img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=isopach&theme=radical&exclude=MATLAB" /></a><a><img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=isopach&theme=radical" /></a>
-
-
-## 📲 Android Apps
-<code><a href="https://play.google.com/store/apps/dev?id=4692378086922143747" target="_blank"><img height="50" src="https://www.vectorlogo.zone/logos/google_play/google_play-tile.svg"></a></code>

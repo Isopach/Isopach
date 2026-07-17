@@ -1,8 +1,8 @@
 <div align="center">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/isopach-avatar.svg">
-    <img src="./assets/isopach-avatar.svg" alt="Animated Isopach kaomoji avatar banner" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/isopach-avatar-v2.svg">
+    <img src="./assets/isopach-avatar-v2.svg" alt="Animated Isopach kaomoji avatar banner" width="100%">
   </picture>
 
   <h1>Isopach</h1>

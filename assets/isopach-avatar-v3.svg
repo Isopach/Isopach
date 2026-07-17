@@ -41,25 +41,38 @@
     }
 
     .eye {
-      animation: blink 5.4s ease-in-out infinite;
+      stroke: #080b10;
+      stroke-width: 4;
+      stroke-dasharray: 128;
+      stroke-dashoffset: 128;
+      fill-opacity: 0;
+      opacity: 0;
+      animation: draw-eye 0.85s ease-out 0.72s forwards, blink 5.4s ease-in-out 2.35s infinite;
       transform-box: fill-box;
       transform-origin: center;
     }
 
     .eye.right {
-      animation-delay: 0.08s;
+      animation-delay: 0.86s, 2.43s;
     }
 
     .brow {
-      animation: brow 5.4s ease-in-out infinite;
+      stroke-dasharray: 42;
+      stroke-dashoffset: 42;
+      opacity: 0;
+      animation: draw-brow 0.55s ease-out 0.28s forwards, brow 5.4s ease-in-out 2.2s infinite;
       transform-box: fill-box;
       transform-origin: center;
+    }
+
+    .brow.right {
+      animation-delay: 0.42s, 2.28s;
     }
 
     .mouth {
       stroke-dasharray: 240;
       stroke-dashoffset: 240;
-      animation: draw-mouth 1.3s ease-out 0.25s forwards, mouth-bob 4.6s ease-in-out 1.6s infinite;
+      animation: draw-mouth 1.05s ease-out 1.12s forwards, mouth-bob 4.6s ease-in-out 2.4s infinite;
       transform-origin: 344px 287px;
     }
 
@@ -142,12 +155,46 @@
       }
     }
 
+    @keyframes draw-eye {
+      0% {
+        stroke-dashoffset: 128;
+        fill-opacity: 0;
+        opacity: 0;
+      }
+      18% {
+        opacity: 1;
+      }
+      72% {
+        stroke-dashoffset: 0;
+        fill-opacity: 0;
+      }
+      100% {
+        stroke-dashoffset: 0;
+        fill-opacity: 1;
+        opacity: 1;
+      }
+    }
+
     @keyframes blink {
       0%, 92%, 100% {
         transform: scaleY(1);
       }
       95% {
         transform: scaleY(0.08);
+      }
+    }
+
+    @keyframes draw-brow {
+      0% {
+        stroke-dashoffset: 42;
+        opacity: 0;
+      }
+      20% {
+        opacity: 1;
+      }
+      100% {
+        stroke-dashoffset: 0;
+        opacity: 1;
       }
     }
 
@@ -220,6 +267,17 @@
 
       .mouth {
         stroke-dashoffset: 0;
+      }
+
+      .eye {
+        stroke-dashoffset: 0;
+        fill-opacity: 1;
+        opacity: 1;
+      }
+
+      .brow {
+        stroke-dashoffset: 0;
+        opacity: 1;
       }
     }
   </style>
@@ -304,8 +362,8 @@
         <path d="M226 206C225 166 238 129 265 99C287 74 309 51 327 15C333 2 352 1 359 14C373 39 400 58 424 82C451 109 472 147 477 201C478 215 469 228 455 230C374 244 310 243 239 224C231 222 226 215 226 206Z" stroke="#05070a" stroke-opacity="0.28" stroke-width="7"/>
       </g>
 
-      <path class="brow" d="M229 254L260 244" stroke="#080b10" stroke-width="10" stroke-linecap="round"/>
-      <path class="brow" d="M428 244L459 254" stroke="#080b10" stroke-width="10" stroke-linecap="round"/>
+      <path class="brow left" d="M229 254L260 244" stroke="#080b10" stroke-width="10" stroke-linecap="round"/>
+      <path class="brow right" d="M428 244L459 254" stroke="#080b10" stroke-width="10" stroke-linecap="round"/>
 
       <ellipse class="eye left" cx="278" cy="302" rx="17" ry="22" fill="#080b10"/>
       <ellipse class="eye right" cx="410" cy="302" rx="17" ry="22" fill="#080b10"/>

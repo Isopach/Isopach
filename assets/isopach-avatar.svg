@@ -310,7 +310,7 @@
       <ellipse class="eye left" cx="278" cy="302" rx="17" ry="22" fill="#080b10"/>
       <ellipse class="eye right" cx="410" cy="302" rx="17" ry="22" fill="#080b10"/>
 
-      <path class="mouth" d="M337 295C318 300 312 333 332 342C347 349 357 331 357 316C357 331 367 349 382 342C402 333 396 300 377 295" stroke="#080b10" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path class="mouth" d="M324 295C305 300 299 333 319 342C334 349 344 331 344 316C344 331 354 349 369 342C389 333 383 300 364 295" stroke="#080b10" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M242 342C264 362 297 373 341 373C387 373 425 361 448 341" stroke="#c7a56d" stroke-width="5" stroke-linecap="round" opacity="0.24"/>
     </g>
 

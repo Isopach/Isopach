@@ -5,12 +5,6 @@
     <img src="./assets/isopach-avatar-v3.svg" alt="Animated Isopach kaomoji avatar banner" width="100%">
   </picture>
 
-  <h1>Isopach</h1>
-
-  <p>
-    Security research, CTF notes, small tools, and experiments that make systems easier to understand.
-  </p>
-
   <p>
     <a href="https://github.com/Isopach">
       <img src="https://img.shields.io/github/followers/Isopach?label=GitHub&style=for-the-badge&logo=github&color=2f81f7" alt="GitHub followers">

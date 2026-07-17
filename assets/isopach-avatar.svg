@@ -318,7 +318,7 @@
     <circle class="spark s2" cx="525" cy="98" r="3.6"/>
     <circle class="spark s3" cx="567" cy="280" r="4.4"/>
 
-    <g transform="translate(610 134)">
+    <g transform="translate(660 134)">
       <text class="title" x="0" y="70">Isopach</text>
       <rect class="cursor" x="351" y="14" width="14" height="64" rx="2"/>
       <text class="subtitle" x="3" y="126">security research / CTF writeups / tools</text>
